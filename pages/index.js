@@ -21,7 +21,6 @@ export default function Home() {
         </div>
         <div className="col-span-4 lg:col-span-1">
           <div className="lg: rlative sticky top-8">
-            <Header />
             <PostWidget />
             <Categories />
           </div>
