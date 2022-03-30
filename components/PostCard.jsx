@@ -53,7 +53,7 @@ const PostCard = ({ post }) => {
         {post.excerpt}
         <div className="text-center">
           <Link href={`/post/${post.slug}`}>
-            <span className="trasnsition trnasform mt-4 inline-block cursor-pointer rounded-full bg-pink-600 px-8 py-3 text-lg font-medium text-white duration-500 hover:-translate-y-1">
+            <span className="trasnsition trnasform mt-4 inline-block cursor-pointer rounded-full bg-pink-600 px-5 py-2 text-lg font-medium text-white duration-500 hover:-translate-y-1">
               Continue Reading
             </span>
           </Link>
