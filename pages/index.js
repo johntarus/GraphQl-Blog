@@ -14,10 +14,10 @@ export default function Home({ posts }) {
         <title>GraphQl-Blog</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="grid grid-cols-12 gap-12 lg:grid-cols-12">
+      <div className="grid-cols-12 gap-12 lg:grid-cols-12">
         <div className="col-span-1 lg:col-span-8">
           {posts.map((post) => (
-            <PostCard post={post} key={post.title} />
+            <PostCard post={post.node} key={post.title} />
           ))}
         </div>
         <div className="col-span-4 lg:col-span-1">

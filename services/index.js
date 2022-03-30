@@ -8,7 +8,7 @@ export const getPosts = async () => {
       postsConnection {
         edges {
           node {
-            authors {
+            author {
               bio
               name
               id
@@ -16,10 +16,10 @@ export const getPosts = async () => {
                 url
               }
             }
-            excerpt
+            createdAt
             slug
             title
-            createdAt
+            excerpt
             featuredImage {
               url
             }
@@ -32,6 +32,8 @@ export const getPosts = async () => {
       }
     }
   `
+
   const result = await request(graphqlAPI, query)
+
   return result.postsConnection.edges
 }
