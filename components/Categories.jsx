@@ -12,7 +12,6 @@ const Categories = () => {
     })
   }, [])
 
-  console.log(categories)
   return (
     <div className="shaddow-lg mb-8 rounded-lg bg-white p-8 pb-12">
       <h3 className="mb-8 border-b pb-4 text-xl font-semibold">Categories</h3>
