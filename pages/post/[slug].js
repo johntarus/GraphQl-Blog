@@ -19,7 +19,9 @@ const postDetails = () => {
           <Comments />
         </div>
         <div className="col-span-1 lg:col-span-4">
-          <div className="relative top-8 lg:sticky"></div>
+          <div className="relative top-8 lg:sticky">
+            <PostWidget />
+          </div>
         </div>
       </div>
     </div>
