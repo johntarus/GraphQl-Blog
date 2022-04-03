@@ -9,7 +9,7 @@ import {
 } from '../../components'
 
 const postDetails = () => {
-  return <div>postDetails</div>
+  return <div className="container mx-auto mb-8 px-10">postDetails</div>
 }
 
 export default postDetails
