@@ -8,8 +8,8 @@ import {
   CommentsForm,
 } from '../../components'
 
-const PostDetails = () => {
-  return <div></div>
+const postDetails = () => {
+  return <div>postDetails</div>
 }
 
-export default PostDetails
+export default postDetails
