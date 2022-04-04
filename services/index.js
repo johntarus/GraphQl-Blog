@@ -61,13 +61,16 @@ export const getPostDetails = async (slug) => {
           name
           slug
         }
+        content {
+          raw
+        }
       }
     }
   `
 
-  const result = await request(graphqlAPI, query)
+  const result = await request(graphqlAPI, query, { slug })
 
-  return result.postsConnection.edges
+  return result.post
 }
 
 export const getRecentPosts = async () => {
