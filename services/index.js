@@ -42,29 +42,24 @@ export const getPostDetails = async (slug) => {
   const query = gql`
     query GetPostDetails($slug: String!) {
       post(where: { slug: $slug }) {
-      postsConnection {
-        edges {
-          node {
-            author {
-              bio
-              name
-              id
-              photo {
-                url
-              }
-            }
-            createdAt
-            slug
-            title
-            excerpt
-            featuredImage {
-              url
-            }
-            categories {
-              name
-              slug
-            }
+        author {
+          bio
+          name
+          id
+          photo {
+            url
           }
+        }
+        createdAt
+        slug
+        title
+        excerpt
+        featuredImage {
+          url
+        }
+        categories {
+          name
+          slug
         }
       }
     }
