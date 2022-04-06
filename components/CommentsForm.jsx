@@ -51,6 +51,16 @@ const CommentsForm = () => {
           name="email"
         />
       </div>
+      <div classNmae="grid grid-cols-1 gap-4 mb-4">
+        <div>
+          <input
+            ref={storedDataEl}
+            type="checkbox"
+            id="storeData name='storeData value='true"
+            className=""
+          ></input>
+        </div>
+      </div>
       {error && (
         <p className="text-xs text-red-500">All fields are required.</p>
       )}
