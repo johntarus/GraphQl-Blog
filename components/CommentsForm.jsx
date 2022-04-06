@@ -59,6 +59,7 @@ const CommentsForm = () => {
             id="storeData name='storeData value='true"
             className=""
           ></input>
+          <label htmlFor="">Save my credentials</label>
         </div>
       </div>
       {error && (
