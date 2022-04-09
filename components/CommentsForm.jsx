@@ -64,7 +64,7 @@ const CommentsForm = () => {
             className="ml-2 cursor-pointer text-gray-500"
             htmlFor="storeData"
           >
-            Save my credentials for next time I come back
+            Save my credentials for next time
           </label>
         </div>
       </div>
