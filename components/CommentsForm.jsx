@@ -57,7 +57,9 @@ const CommentsForm = () => {
           <input
             ref={storedDataEl}
             type="checkbox"
-            id="storeData name='storeData value='true"
+            id="storeData"
+            name="storeData"
+            value="true" //check on this
             className=""
           ></input>
           <label
