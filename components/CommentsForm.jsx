@@ -59,7 +59,7 @@ const CommentsForm = () => {
             type="checkbox"
             id="storeData"
             name="storeData"
-            value="true" //check on this
+            value="true"
             className=""
           ></input>
           <label
