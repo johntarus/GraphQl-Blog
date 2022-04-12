@@ -60,7 +60,7 @@ const CommentsForm = () => {
             id="storeData"
             name="storeData"
             value="true"
-            className="" //checking
+            className=""
           ></input>
           <label
             className="ml-2 cursor-pointer text-gray-500"
