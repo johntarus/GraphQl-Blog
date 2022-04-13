@@ -8,4 +8,8 @@ export default function comments(req, res) {
       Authorization: `Bearer ${process.env.GRAPHCMS_API_TOKEN}`,
     },
   })
+  const query = gql`
+    mutation CreateComment($name: string!, $email: string!, $comment: string!, $slug: string!) {
+    }
+    `
 }
