@@ -21,6 +21,14 @@ const CommentsForm = () => {
       setError(true)
       return
     }
+    const commentObj = { name, comment, email, slug }
+    if (storeData) {
+      localStorage.setItem('name', name)
+      localStorage.setItem('email', email)
+    } else {
+      localStorage.removeItem('name')
+      localStorage.removeItem('email')
+    }
   }
 
   return (
