@@ -15,7 +15,7 @@ const CommentsForm = () => {
     const { value: comment } = commentEl.current
     const { value: name } = nameEl.current
     const { value: email } = emailEl.current
-    const { value: storeData } = storeDataEl.current
+    const { checked: storeData } = storeDataEl.current
 
     if (!comment || !name || !email) {
       setError(true)
