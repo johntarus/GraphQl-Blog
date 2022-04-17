@@ -92,3 +92,5 @@ const FeaturedPosts = () => {
 }
 
 export default FeaturedPosts
+
+//we are in the future
