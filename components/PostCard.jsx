@@ -49,6 +49,8 @@ const PostCard = ({ post }) => {
         </div>
       </div>
       <div className="mb-8 px-4 text-center text-lg font-normal text-gray-700 lg:px-20">
+        {' '}
+        //take this
         {post.excerpt}
         <div className="text-center">
           <Link href={`/post/${post.slug}`}>
