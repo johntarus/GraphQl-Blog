@@ -22,7 +22,7 @@ const Header = () => {
         <div className="block md:float-left">
           <Link href="/">
             <span className="cussor-pointer text-4xl font-bold text-white">
-              <Link href="/">GraphCMS Blog</Link> //WORKING ON
+              <Link href="/">GraphCMS Blog</Link> //WORKING
             </span>
           </Link>
         </div>
