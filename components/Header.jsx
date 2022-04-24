@@ -16,8 +16,8 @@ const Header = () => {
       <div className="inline-block w-full border-b border-blue-400 py-8">
         <div className="block md:float-left">
           <Link href="/">
-            <span className="cussor-pointer text-3xl font-bold text-white">
-              <Link href="/">Blog</Link>
+            <span className="cussor-pointer text-sm font-bold text-white sm:text-4xl">
+              <Link href="/">GraphCMS Blog</Link>
             </span>
           </Link>
         </div>
