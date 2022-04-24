@@ -22,7 +22,7 @@ const Header = () => {
           </Link>
           <div className="lg:invisible">
             <svg
-              class="h-6 w-6"
+              class="h-8 w-8"
               fill="none"
               stroke="white"
               viewBox="0 0 24 24"
