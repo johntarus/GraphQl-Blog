@@ -20,7 +20,7 @@ const Header = () => {
               <Link href="/">GraphCMS Blog</Link>
             </span>
           </Link>
-          <div className="lg:invisible">
+          <div className="md:invisible">
             <svg
               class="h-8 w-8"
               fill="none"
