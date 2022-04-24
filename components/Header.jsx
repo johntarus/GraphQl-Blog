@@ -2,11 +2,6 @@ import React, { useContext, useState, useEffect } from 'react'
 import { getCategories } from '../services'
 import Link from 'next/link'
 
-// const categories = [
-//   { name: 'React', slug: 'react' },
-//   { name: 'Web Development', slug: 'web-dev' },
-// ]
-
 const Header = () => {
   const [categories, setCategories] = useState([])
 
