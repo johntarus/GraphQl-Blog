@@ -4,6 +4,16 @@ import Link from 'next/link'
 
 const Header = () => {
   const [categories, setCategories] = useState([])
+  const [Active, setActive] = useState(false)
+
+  function toggleMenu() {
+    setActive(!Active)
+    if (Active) {
+      document.body.style.overflow = 'auto'
+    } else {
+      document.body.style.overflow = 'hidden'
+    }
+  }
 
   useEffect(() => {
     getCategories().then((newCategories) => {
@@ -22,7 +32,8 @@ const Header = () => {
           </Link>
           <div className="md:invisible">
             <svg
-              class="h-8 w-8"
+              class="h-8 w-8 cursor-pointer"
+              onClick={toggleMenu}
               fill="none"
               stroke="white"
               viewBox="0 0 24 24"
@@ -52,3 +63,5 @@ const Header = () => {
 }
 
 export default Header
+
+//new
